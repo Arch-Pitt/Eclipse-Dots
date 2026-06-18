@@ -30,7 +30,7 @@ This repository provides a ready-to-use Wayland environment with a focus on simp
 ![](.ignore/rofi.png)
 
 #### Wallpicker
-![](.ignore/rofi.png)
+![](.ignore/wallpicker.png)
 
 ---
 
@@ -47,7 +47,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/Arch-Pitt/Eclipse-Dots.git
-cd HyprDots
+cd Eclipse-Dots
 ```
 
 Make the installer executable and run it:
