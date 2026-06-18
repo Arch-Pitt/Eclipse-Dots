@@ -19,7 +19,7 @@ choice=$(get_list | rofi -dmenu \
     window {
         width: 820px;
         border-radius: 8px;
-        background-color: rgba(0, 0, 0, 0.8);
+        background-color: rgb(0, 0, 0);
         border: 1px;
         border-color: rgba(68, 68, 68, 0.67);
         padding: 15px;

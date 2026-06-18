@@ -1,6 +1,6 @@
 {
-    "height": 22,
-    "spacing": 6,
+    "height": 25,
+    "spacing": 2,
 
     "margin-top": 4,
     "margin-left": 6,
@@ -25,10 +25,7 @@
         "disable-scroll": true,
         "all-outputs": true,
         "warp-on-scroll": false,
-        "format": "{name}",
-        "persistent-workspaces": {
-            "*": [1, 2, 3]
-        }
+        "format": "{name}"
     },
 
     "tray": {
@@ -87,7 +84,7 @@
     },
 
     "custom/power": {
-        "format": "⏻",
+        "format": "",
         "tooltip-format": "Power",
         "on-click": "nwg-bar"
     }

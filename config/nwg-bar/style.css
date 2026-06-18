@@ -1,6 +1,7 @@
 * {
     font-family: JetBrainsMono Nerd Font, FontAwesome;
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 window {
@@ -12,29 +13,31 @@ window {
 }
 
 #inner-box {
-    background-color: rgba(0, 0, 0, 0.80);
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.06);
-    padding: 6px 16px;
+    background: rgb(0, 0, 0); 
+    border: 1px solid rgba(68, 68, 68, 0.67); 
+    border-radius: 6px;
+    padding: 6px 10px;
 }
 
 button {
     background: transparent;
-    color: #bbbbbb;
+    color: #ffffff;
     border: none;
     box-shadow: none;
-    padding: 6px 14px;
-    margin: 2px 4px;
-    border-radius: 6px;
+    padding: 2px 12px;
+    margin: 4px 4px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
 }
 
 button:hover {
-    background: rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, 0.4);
+    color: #ffffff;
 }
 
 button:checked,
 button.active {
-    background: rgba(255, 255, 255, 0.10);
+    background: rgba(255, 255, 255, 0.2);
     color: #ffffff;
 }
 
