@@ -1,0 +1,94 @@
+{
+    "height": 22,
+    "spacing": 6,
+
+    "margin-top": 4,
+    "margin-left": 6,
+    "margin-right": 6,
+
+    "modules-left": [
+        "hyprland/workspaces",
+        "tray"
+    ],
+    "modules-center": [
+        "clock"
+    ],
+    "modules-right": [
+        "network",
+        "pulseaudio",
+        "backlight",
+        "battery",
+        "custom/power"
+    ],
+
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "warp-on-scroll": false,
+        "format": "{name}",
+        "persistent-workspaces": {
+            "*": [1, 2, 3]
+        }
+    },
+
+    "tray": {
+        "spacing": 10,
+        "icon-size": 16
+    },
+
+    "clock": {
+        "format": "{:%H:%M}",
+        "format-alt": "{:%d-%m-%Y}",
+        "tooltip-format": false
+    },
+
+    "backlight": {
+        "format": "{percent}% {icon}",
+        "format-icons": ["","","","","","","","",""],
+        "tooltip-format": "Brightness",
+        "on-click": ""
+    },
+
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-charging": "{capacity}% ",
+        "format-plugged": "{capacity}% ",
+        "format-icons": ["","","","",""],
+        "tooltip-format": "Batery",
+        "on-click": ""
+    },
+
+    "network": {
+        "format-wifi": "{essid} ",
+        "format-ethernet": "{ifname} 󰈀",
+        "format-disconnected": "No Net ⚠",
+        "tooltip-format": "Network",
+        "on-click": "nm-connection-editor"
+    },
+
+    "pulseaudio": {
+        "format": "{volume}% {icon}",
+        "format-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["","",""]
+        },
+        "tooltip-format": "Audio",
+        "on-click": "pavucontrol"
+    },
+
+    "custom/power": {
+        "format": "⏻",
+        "tooltip-format": "Power",
+        "on-click": "nwg-bar"
+    }
+}
