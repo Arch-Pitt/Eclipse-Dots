@@ -21,7 +21,7 @@
         "pulseaudio",
         "backlight",
         "battery",
-        "custom/power"
+        "custom/menu"
     ],
 
     "hyprland/workspaces": {
@@ -86,9 +86,9 @@
         "on-click": "pavucontrol"
     },
 
-    "custom/power": {
+    "custom/menu": {
         "format": "",
-        "tooltip-format": "Power",
-        "on-click": "nwg-bar"
+        "tooltip-format": "Menu",
+        "on-click": "swaync-client -t -sw"
     }
 }
