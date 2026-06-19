@@ -27,12 +27,11 @@ sudo pacman -S --needed --noconfirm \
   waybar \
   rofi-wayland \
   awww \
-  nwg-bar \
   nwg-look \
   hyprshot \
   hyprlock \
   hypridle \
-  dunst \
+  swaync \
   xdg-desktop-portal \
   xdg-desktop-portal-hyprland
 
@@ -41,6 +40,7 @@ sudo pacman -S --needed --noconfirm \
   fastfetch \
   vim \
   nano \
+  vim \
   unzip \
   unrar \
   zip \

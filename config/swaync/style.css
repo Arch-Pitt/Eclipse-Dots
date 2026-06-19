@@ -46,8 +46,14 @@
 @define-color text-color-disabled rgb(120, 120, 120);
 @define-color bg-selected #ffffff;
 
+* {
+    font-family: "JetBrainsMono Nerd Font", sans-serif;
+    font-size: 14px;
+}
+
 notificationwindow, blankwindow {
   background: transparent;
+  font-size: 15px;
 }
 
 .close-button {

@@ -18,7 +18,13 @@ This repository provides a ready-to-use Wayland environment with a focus on simp
 
 ---
 
-## Preview (WIP)
+## Preview
+
+![](/.ignore/desktop.png)
+![](/.ignore/swaync.png)
+![](/.ignore/rofi.png)
+![](/.ignore/wallpicker.png)
+
 
 ---
 
@@ -77,12 +83,11 @@ Installs:
 * waybar
 * rofi-wayland
 * swww
-* nwg-bar
 * nwg-look
 * hyprshot
 * hypridle
 * hyprlock
-* dunst
+* swaync
 
 ### Portals
 Installs:
