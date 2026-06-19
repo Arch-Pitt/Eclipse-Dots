@@ -1,6 +1,6 @@
 :root {
   --cc-bg: rgba(0, 0, 0, 0.9);
-  --noti-border-color: rgba(68, 68, 68, 0.67);
+  --noti-border-color: rgba(68, 68, 68, 0.3);
   --noti-bg: 0, 0, 0;
   --noti-bg-alpha: 0.9;
   --noti-bg-darker: rgb(0, 0, 0);
@@ -47,7 +47,7 @@
 @define-color bg-selected #ffffff;
 
 * {
-    font-family: "JetBrainsMono Nerd Font", sans-serif;
+    font-family: "JetBrainsMono Nerd Font Propo", sans-serif;
     font-size: 14px;
 }
 
