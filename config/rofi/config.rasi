@@ -3,7 +3,7 @@
     g-spacing: 10px;
     g-margin: 0;
     
-    wbg-color: rgb(0, 0, 0);
+    wbg-color: rgba(0, 0, 0, 0.9);
     w-border-color: rgba(68, 68, 68, 0.67);
     
     fg-color: #FFFFFFFF;
@@ -12,8 +12,8 @@
     hl-color: #FFFFFFFF;
     hlt-color: #000000FF;
     
-    b-radius: 6px;
-    elem-radius: 4px;
+    b-radius: 3px;
+    elem-radius: 2px;
     g-padding: 8px;
     w-padding: 14px;
 }

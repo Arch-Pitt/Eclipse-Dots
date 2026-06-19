@@ -18,8 +18,8 @@ choice=$(get_list | rofi -dmenu \
   -theme-str '
     window {
         width: 820px;
-        border-radius: 8px;
-        background-color: rgb(0, 0, 0);
+        border-radius: 3px;
+        background-color: rgba(0, 0, 0, 0.9);
         border: 1px;
         border-color: rgba(68, 68, 68, 0.67);
         padding: 15px;
@@ -61,7 +61,7 @@ choice=$(get_list | rofi -dmenu \
     element {
         orientation: vertical;
         padding: 10px;
-        border-radius: 6px;
+        border-radius: 3px;
         background-color: transparent;
         text-color: #FFFFFFFF;
         spacing: 8px;

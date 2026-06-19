@@ -10,12 +10,13 @@ window {
 
 #outer-box {
     margin: 8px 10px;
+    border-radius: 3px;
 }
 
 #inner-box {
-    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.9); 
     border: 1px solid rgba(68, 68, 68, 0.67); 
-    border-radius: 6px;
+    border-radius: 3px;
     padding: 6px 10px;
 }
 
