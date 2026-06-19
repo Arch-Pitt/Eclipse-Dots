@@ -31,6 +31,7 @@ sudo pacman -S --needed --noconfirm \
   hyprshot \
   hyprlock \
   hypridle \
+  waypaper \
   swaync \
   xdg-desktop-portal \
   xdg-desktop-portal-hyprland
