@@ -8,6 +8,7 @@ This repository provides a ready-to-use Wayland environment with a focus on simp
 ## Features
 * Lockscreen with **hyprlock**
 * Preconfigured **kitty**, **waybar**, **rofi** and **swaync**
+* **Fish shell** for a faster terminal
 * **Orchis Grey Dark** GTK theme and **Papirus** icon theme for minimal UI
 * **Yay** for AUR packages
 * Basic firewall and networking setup with **UFW** and **networkmanager**
@@ -78,6 +79,7 @@ Installs:
 
 * hyprland
 * kitty
+* fish
 * waybar
 * rofi-wayland
 * swww

@@ -32,6 +32,7 @@ echo "Installing Hyprland ecosystem"
 sudo pacman -S --needed --noconfirm \
   hyprland \
   kitty \
+  fish \
   waybar \
   rofi-wayland \
   awww \
