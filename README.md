@@ -8,7 +8,6 @@ This repository provides a ready-to-use Wayland environment with a focus on simp
 ## Features
 * Lockscreen with **hyprlock**
 * Preconfigured **kitty**, **waybar**, and **rofi**
-* Wallpaper launcher with **rofi** and **awwww**
 * **Orchis Grey Dark** GTK theme and **Papirus** icon theme for minimal UI
 * **Yay** for AUR packages
 * Basic firewall and networking setup with **UFW** and **networkmanager**
