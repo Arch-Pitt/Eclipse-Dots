@@ -403,19 +403,29 @@ notificationwindow, blankwindow {
   background-color: var(--mpris-button-hover);
 }
 
+/* --- Configuração do Grid de Botões de Power --- */
 .widget-buttons-grid {
     margin: 0 auto;
     padding: 10px;
-    background: transparent; 
+    background: transparent;
 }
 
 .widget-buttons-grid flowbox {
     margin: 0 auto;
-    justify-content: left;
+    justify-content: center;
 }
 
-.widget-buttons-grid flowboxchild {
+.widget-buttons-grid flowboxchild button {
+    min-width: 60px;
+    min-height: 60px;
+    font-size: 24px;
     margin: 4px;
+    border-radius: 8px;
+    transition: background 0.2s ease;
+}
+
+.widget-buttons-grid flowboxchild button:hover {
+    background: rgba(255, 255, 255, 0.1);
 }
 
 .widget-menubar > .menu-button-bar > .start {

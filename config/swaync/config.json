@@ -43,7 +43,7 @@
     "buttons-grid": {
       "actions": [
         { "label": "", "command": "systemctl poweroff" },
-        { "label": "󰜉", "command": "systemctl reboot" },
+        { "label": "", "command": "systemctl reboot" },
         { "label": "󰌾", "command": "hyprlock" },
         { "label": "󰍃", "command": "hyprctl dispatch exit" }
       ]

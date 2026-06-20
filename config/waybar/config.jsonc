@@ -87,7 +87,7 @@
     },
 
     "custom/menu": {
-        "format": "",
+        "format": "",
         "tooltip-format": "Menu",
         "on-click": "swaync-client -t -sw"
     }
