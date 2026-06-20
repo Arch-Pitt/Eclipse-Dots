@@ -345,12 +345,22 @@ notificationwindow, blankwindow {
 }
 
 .widget-dnd switch {
-  border-radius: var(--border-radius);
+  border-radius: 50px; 
   margin-left: 8px;
 }
 
 .widget-dnd switch slider {
-  border-radius: var(--border-radius);
+  border-radius: 50px; 
+  min-width: 24px;
+  min-height: 24px;
+}
+
+.widget-dnd switch:checked {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.widget-dnd switch:checked slider {
+  background: var(--cc-bg);
 }
 
 .widget-label > label {
@@ -406,10 +416,10 @@ notificationwindow, blankwindow {
   background-color: var(--mpris-button-hover);
 }
 
-/* --- Configuração do Grid de Botões de Power --- */
+
 .widget-buttons-grid {
     margin: 0 auto;
-    padding: 10px;
+    padding: 1px;
     background: transparent;
 }
 
@@ -419,16 +429,21 @@ notificationwindow, blankwindow {
 }
 
 .widget-buttons-grid flowboxchild button {
-    min-width: 60px;
+    min-width: 70px;
     min-height: 60px;
-    font-size: 48px;
+    font-size: 32px;
     margin: 4px;
+    padding: 0;
     border-radius: 8px;
-    transition: background 0.2s ease;
+    border: none;
+    box-shadow: none;
+    color: var(--text-color);
+    transition: background 0.2s ease, color 0.2s ease;
 }
 
 .widget-buttons-grid flowboxchild button:hover {
-    background: rgba(255, 255, 255, 0.1);
+    background: #ffffff;
+    color: #000000;
 }
 
 .widget-menubar > .menu-button-bar > .start {
