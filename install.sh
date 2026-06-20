@@ -5,6 +5,14 @@ set -e
 echo "System update"
 sudo pacman -Syu --noconfirm
 
+echo "Installing YAY"
+
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si --noconfirm
+
+cd ~
+
 echo "Installing fonts"
 sudo pacman -S --needed --noconfirm \
   ttf-dejavu \
@@ -74,14 +82,7 @@ sudo pacman -S --needed --noconfirm \
   nemo \
   file-roller
 
-echo "Installing YAY"
-
-git clone https://aur.archlinux.org/yay.git
-cd yay
-
-makepkg -si --noconfirm
-
-cd ~
+yay -S visual-studio-code-bin
 
 echo "Creating user directories"
 mkdir -p \

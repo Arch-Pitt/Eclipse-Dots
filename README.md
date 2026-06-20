@@ -7,7 +7,7 @@ This repository provides a ready-to-use Wayland environment with a focus on simp
 
 ## Features
 * Lockscreen with **hyprlock**
-* Preconfigured **kitty**, **waybar**, and **rofi**
+* Preconfigured **kitty**, **waybar**, **rofi** and **swaync**
 * **Orchis Grey Dark** GTK theme and **Papirus** icon theme for minimal UI
 * **Yay** for AUR packages
 * Basic firewall and networking setup with **UFW** and **networkmanager**
@@ -178,7 +178,11 @@ Enables:
 | SUPER + L | Lock screen |
 | SUPER + P | Power menu |
 | SUPER + SHIFT + W | Wallpaper picker |
+| SUPER + M | Menu |
 | SUPER + SHIFT + S | Screenshot (region) |
+| SUPER + F1 | Mute |
+| SUPER + F2 | Decrease volume |
+| SUPER + F3 | Increase volume |
 
 ---
 
@@ -260,7 +264,7 @@ chmod +x ~/.config/rofi/wallpicker.sh
    sudo reboot
    ```
 
-2. Log in through a TTY (Ctrl + Alt + F2, for example)
+2. Log in through a TTY
 
 3. Start Hyprland:
    ```bash
