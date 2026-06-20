@@ -23,7 +23,8 @@ This repository provides a ready-to-use Wayland environment with a focus on simp
 ![](/.ignore/desktop.png)
 ![](/.ignore/swaync.png)
 ![](/.ignore/rofi.png)
-![](/.ignore/terminalandgtk.png)
+![](/.ignore/gtk.png)
+![](/.ignore/terminal.png)
 
 ---
 
