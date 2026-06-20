@@ -24,7 +24,6 @@ This repository provides a ready-to-use Wayland environment with a focus on simp
 ![](/.ignore/rofi.png)
 ![](/.ignore/terminalandgtk.png)
 
-
 ---
 
 ## Installation
@@ -127,6 +126,8 @@ Installs:
 * mpv
 * libreoffice-fresh
 * gnome-calculator
+* obsidian
+* vscode
 
 ### Wine support
 Installs:

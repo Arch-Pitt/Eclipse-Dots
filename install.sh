@@ -41,6 +41,7 @@ sudo pacman -S --needed --noconfirm \
   fastfetch \
   vim \
   nano \
+  obsidian \
   vim \
   unzip \
   unrar \
