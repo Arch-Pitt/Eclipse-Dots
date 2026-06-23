@@ -5,7 +5,7 @@
   --noti-bg-alpha: 0.8;
   --noti-bg-darker: rgb(0, 0, 0);
   --noti-bg-hover: rgba(255, 255, 255, 0.15);
-  --noti-bg-focus: rgba(255, 255, 255, 0.1);
+  --noti-bg-focus: rgba(255, 255, 255, 0);
   --noti-close-bg: rgba(255, 255, 255, 0.05);
   --noti-close-bg-hover: rgba(255, 255, 255, 0.15);
   
