@@ -3,7 +3,7 @@
     g-spacing: 10px;
     g-margin: 0;
     
-    wbg-color: rgba(0, 0, 0, 0.9);
+    wbg-color: rgba(0, 0, 0, 0.8);
     w-border-color: rgba(68, 68, 68, 0.3);
     
     fg-color: #FFFFFFFF;
