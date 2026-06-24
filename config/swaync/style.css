@@ -460,15 +460,30 @@ notificationwindow, blankwindow {
   --widget-volume-row-icon-size: 24px;
 }
 
-.widget-volume row image {
-  -gtk-icon-size: var(--widget-volume-row-icon-size);
+.widget-volume, .widget-backlight {
+  background: transparent;
+  padding: 0px 12px;
+  margin: 0px 8px;
 }
 
-.per-app-volume {
-  background-color: var(--noti-bg-darker);
-  margin: 8px;
-  margin-bottom: 0;
+.widget-volume scale trough, .widget-backlight scale trough {
+  background: rgba(255, 255, 255, 0.1);
   border-radius: var(--border-radius);
+  min-height: 6px;
+  min-width: 250px;
+}
+
+.widget-volume scale highlight, .widget-backlight scale highlight {
+  background: var(--text-color);
+  border-radius: var(--border-radius);
+}
+
+.widget-volume scale slider, .widget-backlight scale slider {
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  min-height: 0;
+  min-width: 0;
 }
 
 .widget-slider label {

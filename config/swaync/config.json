@@ -1,6 +1,6 @@
 {
   "$schema": "/etc/xdg/swaync/configSchema.json",
-  "ignore-gtk-theme": false,
+  "ignore-gtk-theme": true,
   "positionX": "right",
   "positionY": "top",
   "layer": "top",
@@ -34,6 +34,8 @@
   "script-fail-notify": true,
   "widgets": [
     "buttons-grid",
+    "volume",
+    "backlight",
     "inhibitors",
     "dnd",
     "notifications",
@@ -47,6 +49,14 @@
         { "label": "󰌾", "command": "hyprlock" },
         { "label": "󰍃", "command": "hyprctl dispatch exit" }
       ]
+    },
+    "volume": {
+      "label": "󰕾",
+      "show-per-app": false
+    },
+    "backlight": {
+      "label": "󰃠",
+      "device": "intel_backlight"
     },
     "notifications": { "vexpand": true },
     "inhibitors": { "text": "Inhibitors", "button-text": "Clear All", "clear-all-button": true },
