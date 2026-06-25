@@ -180,7 +180,6 @@ Enables:
 | SUPER + F | Fullscreen |
 | SUPER + L | Lock screen |
 | SUPER + P | Power menu |
-| SUPER + SHIFT + W | Wallpaper picker |
 | SUPER + M | Menu |
 | SUPER + SHIFT + S | Screenshot (region) |
 | SUPER + F1 | Mute |
@@ -252,13 +251,6 @@ cp -r themes/* ~/.themes/
 cp -r icons/* ~/.icons/
 cp -r Wallpapers ~/Pictures/
 ```
-
-Before using the wallpaper launcher, ensure the script has execute permissions.
-
-```bash
-chmod +x ~/.config/rofi/wallpicker.sh
-```
-
 ---
 
 ## Final Steps
