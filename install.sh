@@ -95,6 +95,7 @@ mkdir -p \
   ~/.themes \
   ~/.icons \
   ~/.config \
+  ~/.scripts \
   ~/Pictures \
   ~/Projects
 

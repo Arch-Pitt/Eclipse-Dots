@@ -11,6 +11,7 @@ This repository provides a ready-to-use Wayland environment with a focus on simp
 * **Fish shell** for a faster terminal
 * **Orchis Grey Dark** GTK theme and **Papirus** icon theme for minimal UI
 * **Yay** for AUR packages
+* **cleaner.sh** for basic system cleaning
 * Basic firewall and networking setup with **UFW** and **networkmanager**
 * **GameMode** for automatic performance and optimization during gaming sessions
 * **Libreoffice** and **Gnome Calculator** for your daily tasks
@@ -241,6 +242,7 @@ After the installation script finishes, you need to manually move the configurat
 - Move everything inside the `config` folder to `~/.config`
 - Move everything inside the `themes` folder to `~/.themes`
 - Move everything inside the `icons` folder to `~/.icons`
+- Move everything inside the `scripts` folder to `~/.scripts`
 - Move `Wallpapers` folder to your pictures directory (`~/Pictures`)
 
 You can do this with:
@@ -249,9 +251,16 @@ You can do this with:
 cp -r config/* ~/.config/
 cp -r themes/* ~/.themes/
 cp -r icons/* ~/.icons/
+cp -r scripts/* ~/.scripts/
 cp -r Wallpapers ~/Pictures/
 ```
 ---
+
+Make sure to give **cleaner.sh** executable:
+
+```bash
+sudo chmod +x ~/.scripts/cleaner.sh
+```
 
 ## Final Steps
 1. Reboot the system:
