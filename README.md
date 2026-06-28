@@ -9,7 +9,7 @@ This repository provides a ready-to-use Wayland environment with a focus on simp
 * Lockscreen with **hyprlock**
 * Preconfigured **kitty**, **waybar**, **rofi** and **swaync**
 * **Fish shell** for a faster terminal
-* **Orchis Grey Dark** GTK theme and **Papirus** icon theme for minimal UI
+* **Orchis Grey Dark** GTK theme, **Papirus** icon theme and **Simp1e-Dark** cursor for minimal UI
 * **Yay** for AUR packages
 * **cleaner.sh** for basic system cleaning
 * Basic firewall and networking setup with **UFW** and **networkmanager**
